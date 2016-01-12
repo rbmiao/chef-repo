@@ -6,7 +6,7 @@ Vagrant.configure("2") do |config|
   config.vm.provision :chef_client do |chef|
   	chef.provisioning_path = "/etc/chef"
   	chef.chef_server_url = "https://api.chef.io/organizations/rbmiao"
-  	chef.validation_key_path = "rbmiao-validator"
-  	chef.node_name = "miaoserver"
+  	chef.validation_key_path = ".chef/rbmiao-validator.pem"
+  	chef.node_name = "ubuntu14server"
   end
 end	
