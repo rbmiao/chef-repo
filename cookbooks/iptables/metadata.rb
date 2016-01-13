@@ -1,0 +1,7 @@
+name 'iptables'
+maintainer 'Rongbing Miao'
+maintainer_email 'rbmiao@gmail.com'
+license 'all_rights'
+description 'Installs/Configures iptables'
+long_description 'Installs/Configures iptables'
+version '0.1.0'
